@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="softwere engineer">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Gitika Kalal -> Java Developer, programer </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <div class ="sidebar" >  
+                <nav>
+                    <h1 class="logo"><span>G</span>itika</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header"> Home</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <div class="header-text">
+                <p> Hello, It's me</p>
+                <h1><span>Gitika Kalal</span>  <br>and I'm a <br>software Developer</h1>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/gitti.JPG" alt="profile" />
+        </div>
+    </div>
+    <!-----------------------------About--------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/giti2.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Gitika Kalal. Armed with a background in biology and a master's in Zoology, 
+                        my professional journey has seen a unique evolution into the world of coding. 
+                        With two years of experience as a college lecturer, I've developed effective communication, 
+                        mentoring, and presentation skills. <br>
+
+                        <!-- Despite my unconventional background, I've become proficient in a variety of technologies, 
+                        including Java, Python, Database, MySQL, Docker, Django, Git, and Linux, 
+                        with certifications from Udemy and HackerRank. <br> -->
+                        
+                        In my self-taught journey, I've developed a deep affinity for object-oriented programming and 
+                        problem-solving. I've successfully tackled over 300 problems on platforms like LeetCode, InterviewBit, 
+                        and HackerRank, which showcasing my commitment to Mastering languages and refining my problem-solving 
+                        skills. <br>
+                        
+                        <!-- One project that I'm particularly proud of is the development of a Rest API using Django. 
+                        This  not only sharpened my technical abilities but also fueled my passion for creative problem-solving.
+                        Now, as I delve into HTML and CSS, I'm determined to become a well-rounded software engineer with a 
+                        focus on web development. <br>
+                        What sets me apart is not just my technical proficiency but also my background in teaching at the college level. 
+                        This experience has honed my ability to break down complex concepts into understandable steps. -->
+                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages :</span><br>Java and Python</li>
+                            <li><span>Databases : </span><br> MYSQL, RDBMS</li>
+                            <li><span>Cloud Technologies :</span><br> AWS, Docker</li>
+                            <li><span>Technologies and others : </span><br> Git, Django, Linux</li>
+                            <li><span>Data structures and algorithms</span><br></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <a href="https://tinyurl.com/4mpsfz5z">SQL and Databases Bootcamp</a>
+                            <a href="https://tinyurl.com/bdz8mjxu">Cloud computing on AWSp</a>
+                            <a href="https://tinyurl.com/ms654us8">Java Programming Masterclass</a>
+                            <a href="https://www.udemy.com/certificate/UC-d934d092-df2a-4713-9ff9-">Build a Backend REST API with Python & Django</a>
+                            <a href="https://www.udemy.com/certificate/UC-a1421beb-4129-4acb-b1b3-">Linux Command Line Basics</a>
+                            <a href="https://www.hackerrank.com/certificates/bc5d9f424026">Java (Basic)</a>
+                            <a href="https://www.hackerrank.com/certificates/bd49aa100eaf">Python (Basic)</a>
+                            <a href="https://www.hackerrank.com/certificates/c3a79180eaac">SQL (Basic)</a>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - 2021</span><br>College Lacture</li>
+                            <p>
+                                Seasoned college lecturer with over two years of experience creating engaging learning environments,
+                                developing curriculum materials,
+                                and assessing student comprehension. Proven ability to communicate complex concepts effectively.
+                                Collaborated with peers to integrate innovative teaching methodologies and technologies.
+                                Eager to leverage adaptability and continuous learning mindset in a dynamic software development role.
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016-2018</span><br>Masters in Science (ZOOLOGY)</li>
+                            <li><span>2013-2016</span><br>Bacholers(BIOLOGY)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------contact---------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="contactme">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gitikakalal21@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1-2062405613</p>
+                <div class="social-icons">
+                    <a href="https://github.com/KGitika"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gitika-kalal/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gitika_kalal/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/MyCV.pdf" download class="btn btn2"> Download CV</a>
+                <!-- <a href="" class="btn">DownloadCV</a> -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemen.style.right = "0";
+        }
+        function closemenu(){
+            sidemen.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
