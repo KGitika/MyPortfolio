@@ -27,11 +27,32 @@
             </div>
             <div class="header-text">
                 <p> Hello, It's me</p>
-                <h1><span>Gitika Kalal</span>  <br>and I'm a <br>software Developer</h1>
+                <h1><span>Gitika Kalal</span>  <br>and I'm a <br>software developer</h1>
+                <div class="social-icons">
+                    <a href="https://github.com/KGitika"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/gitikakalal21"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="https://leetcode.com/gitika_kalal/"><i class="fa-solid fa-code"></i></a>
+                </div>
+                <a href="images/MyCV.pdf" download class="btn btn2"> Download CV</a>
+            </div>
+            <div class="header-text-2">
+                <h1>Skills</h1>
+                <div class="skills-icons">
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-aws"></i>
+                    <i class="fa-brands fa-linux"></i>
+                </div>
             </div>
         </div>
         <div class="image">
-            <img src="images/gitti.JPG" alt="profile" />
+            <div class="image-content">
+                <img src="images/gitti.JPG" alt="profile" />
+            </div>
         </div>
     </div>
     <!-----------------------------About--------------------------------------- -->
@@ -44,36 +65,22 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
                     <p>Hello, I'm Gitika Kalal. Armed with a background in biology and a master's in Zoology, 
-                        my professional journey has seen a unique evolution into the world of coding. 
-                        With two years of experience as a college lecturer, I've developed effective communication, 
-                        mentoring, and presentation skills. <br>
-
-                        <!-- Despite my unconventional background, I've become proficient in a variety of technologies, 
-                        including Java, Python, Database, MySQL, Docker, Django, Git, and Linux, 
-                        with certifications from Udemy and HackerRank. <br> -->
-                        
+                        my professional journey has seen a unique evolution into the world of coding. <br>
+                        <br>
                         In my self-taught journey, I've developed a deep affinity for object-oriented programming and 
-                        problem-solving. I've successfully tackled over 300 problems on platforms like LeetCode, InterviewBit, 
-                        and HackerRank, which showcasing my commitment to Mastering languages and refining my problem-solving 
-                        skills. <br>
-                        
-                        <!-- One project that I'm particularly proud of is the development of a Rest API using Django. 
-                        This  not only sharpened my technical abilities but also fueled my passion for creative problem-solving.
-                        Now, as I delve into HTML and CSS, I'm determined to become a well-rounded software engineer with a 
-                        focus on web development. <br>
-                        What sets me apart is not just my technical proficiency but also my background in teaching at the college level. 
-                        This experience has honed my ability to break down complex concepts into understandable steps. -->
-                        </p>
-
+                        problem-solving.<br>
+                        <br>
+                    </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('certificate')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Languages :</span><br>Java and Python</li>
+                            <li><span>Languages :</span><br>Java, Python, HTML, css, JavaScript</li>
                             <li><span>Databases : </span><br> MYSQL, RDBMS</li>
                             <li><span>Cloud Technologies :</span><br> AWS, Docker</li>
                             <li><span>Technologies and others : </span><br> Git, Django, Linux</li>
@@ -91,6 +98,25 @@
                             <a href="https://www.hackerrank.com/certificates/bc5d9f424026">Java (Basic)</a>
                             <a href="https://www.hackerrank.com/certificates/bd49aa100eaf">Python (Basic)</a>
                             <a href="https://www.hackerrank.com/certificates/c3a79180eaac">SQL (Basic)</a>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Build a Food Calorie Counter using - Django, Python and API:</span></li>
+                            <p>
+                                Developed a robust and user-friendly Food Calorie Counter application using Django, 
+                                Python, and API integration, showcasing proficiency in full-stack development. <br>
+                                Leveraged the external API to fetch up-to-date information, showcasing strong API integration skills. <br> 
+                                Implemented secure data handling and storage for user inputs, achieving real-time calorie calculations and 
+                                Successfully deployed the application on an EC2 instance, demonstrating hands-on experience with cloud infrastructure. 
+                            </p>
+                            <li><span>Build a Backend REST API with Python & Django:</span></li>
+                            <p>
+                                Engineered a powerful Backend REST API using Python and Django, 
+                                emphasizing RESTful principles for seamless integration with front-end applications. <br>
+                                Implemented robust authentication and authorization mechanisms, ensuring data security and privacy. <br> 
+                                Utilized Django REST Framework to streamline API development, resulting in efficient data retrieval and manipulation. 
+                            </p>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -123,21 +149,17 @@
                 <p><i class="fa-solid fa-paper-plane"></i>gitikakalal21@gmail.com</p>
                 <p><i class="fa-solid fa-phone"></i>+1-2062405613</p>
                 <div class="social-icons">
-                    <a href="https://github.com/KGitika"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/gitika-kalal/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/gitika_kalal/"><i class="fa-brands fa-instagram"></i></a>
                 </div>
                 <a href="images/MyCV.pdf" download class="btn btn2"> Download CV</a>
-                <!-- <a href="" class="btn">DownloadCV</a> -->
             </div>
         </div>
     </div>
 
     <script>
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-
         function opentab(tabname){
             for(tablink of tablinks){
                 tablink.classList.remove("active-link");

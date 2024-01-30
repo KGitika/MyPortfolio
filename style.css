@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Dosis:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,22 +17,12 @@ body{
 #header{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     margin-right: 10%;
-
-    /* justify-content: space-between; */
-    /* background-image: url(images/gitti.JPG); */
-    /* background-size: 600px 900px;  */
-    /* background-position: right; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: right; */
-    /* align-items: center; */
 }
 
 .container{
-    /* display: flex; */
     padding: 10px 10%;
 }
 .sidebar nav{
@@ -41,7 +32,6 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: right;
-    /* padding: 45px; */
 }
 .logo{
     width: 500px;
@@ -50,16 +40,13 @@ body{
 
 .logo span{
     width: 1000px;
-    color: red;
+    color:rgb(55, 55, 119);
     font: bold;
     font-size: xx-large;
     font-family:cursive;
     text-decoration:underline;
-    text-decoration-color: #cd0f4b;
+    text-decoration-color:rgb(55, 55, 119);
 }
-
-
-
 .sidebar nav ul li{
     display: inline-block;
     list-style: none;
@@ -75,9 +62,8 @@ body{
 }
 .sidebar nav li a:hover{
     width: 100%;
-    color: red;
+    color: rgb(60, 60, 183);
     font-weight: bold;
-    /* font-size: 22px; */
 }
 .header-text{
     margin-top: 20%;
@@ -90,24 +76,64 @@ body{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: red;
+    color:rgb(45, 45, 138);
     font-size: 60px;
+}
+.header-text-2{
+    margin-top: 20%;
+    font-size: 30px;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.header-text-2 h1{
+    font-size: 40px;
+    color: rgb(45, 45, 138);
+    margin-top: 20px;
+}
+.skills-icons{
+    margin: 20px;
+}
+.skills-icons i {
+    margin: 0 10px 10px 0; 
 }
 .image {
     display: grid;
     place-items: center;
-}
+} 
 .image img {
     width: min(25rem, 90%);
-    border-radius: 100%;
-}
+    border-radius: 10%;
+    border: 8px solid rgb(45, 45, 138);
+} 
+/* 
+.image{
+    margin-top: 350px;
+    margin-right: 50px;
+    width: 450px;
+    height: 450px;
+    background-color: #170303;
+    border: 8px solid rgb(45, 45, 138);
+    display: grid;
+    place-items: center;
+    transition: background-color .4s; 
+}*/
+/* .image-content{
+    width: 180px;
+    height: 180px;
+    border: 10px solid rgb(45, 45, 138);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}  */
 
 /* ---------------------------about------------------------------ */
 
 #about{
     padding: 80px 0;
     color: white;
-    /* height: 100vh; */
 }
 
 .row{
@@ -120,24 +146,22 @@ body{
 
 }
 .about-col-1 img{
-     /* width: 100%; */
     border-radius: 15px; 
     width: min(25rem, 90%);
-    /* border-radius: 100%; */
 }
 .about-col-2{
-    font-family:cursive;
     flex-basis: 60%;
     font-size: 20px;
 }
 
 .sub-title{
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
+    font-family: cursive;
 }
 .tab-titles{
-    font-weight: bold;
+    font-weight: solid bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     margin: 20px 0 40px;
@@ -145,7 +169,7 @@ body{
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
 }
@@ -153,7 +177,7 @@ body{
     content:  '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background:rgb(45, 45, 138);
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -167,17 +191,19 @@ body{
     list-style: none;
     margin: 10px 0;
     padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+    color: rgb(60, 60, 183);
+    font-family: cursive;
+    font-size: 25px;
 }
 .tab-contents ul a{
     margin: 10px 0;
     padding: 10px;
     display:flex;
-    color: #cd0f4b;
+    color: rgb(60, 60, 183);
 }
 .tab-contents{
     display: none;
@@ -199,7 +225,7 @@ body{
     margin-top: 30px;
 }
 .contactme p i{
-    color: #ff004f;
+    color: rgb(60, 60, 183);
     margin: 15px;
     font-size: 25px;
 }
@@ -217,21 +243,20 @@ body{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: rgb(60, 60, 183);
     transform: translateY(-5px);
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff004f;
+    background-color :rgb(55, 55, 119);
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-  
 .btn:hover {
-    background-color: #6d0b2a;
+    background-color: rgb(27, 27, 121);
 }
 .btn.btn2{
     margin-top: 30px ;
@@ -244,12 +269,6 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    /* #header{
-        /* background-image: url(images/Subject\ 2.png); */
-        /* background-size: 400px 600px; width height */
-        /* background-position: right; */
-        /* background-repeat: no-repeat; */
-    /* } */ */
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -262,7 +281,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background:rgb(55, 55, 119);
         position: fixed;
         top: 0;
         right: -200px;
@@ -271,6 +290,8 @@ nav .fa-solid{
         padding-top: 50px;
         z-index: 2;
         transition: 0.5s;
+        display: flex;
+        flex-direction: column;
     }
     nav ul li{
         display: block;
@@ -304,8 +325,7 @@ nav .fa-solid{
     .image {
         grid-area: 1/1/2/2;
     }
-
-
+    
 }
 
 
